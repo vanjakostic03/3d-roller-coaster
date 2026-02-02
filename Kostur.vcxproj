@@ -131,9 +131,11 @@
     <ClInclude Include="Header\Util.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="fragment.frag" />
+    <None Include="basic.frag" />
+    <None Include="basic.vert" />
+    <None Include="color.frag" />
+    <None Include="color.vert" />
     <None Include="packages.config" />
-    <None Include="vertex.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
